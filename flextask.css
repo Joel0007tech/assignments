@@ -1,0 +1,120 @@
+@media screen and (min-width:375px){
+  *{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+  main {
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  h2 {
+    font-family: "Lexend Deca", cursive;
+    color: hsl(0, 0%, 95%);
+    margin-left: 35px;
+    font-weight: 400;
+    font-size: 30px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 35px;
+    font-stretch: extra-condensed;
+  }
+  p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: "Big Shoulders Display", cursive;
+    text-justify: inter-word;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 550px;
+  }
+  .suvs {
+    background-color: hsl(184, 100%, 22%);
+    height: 500px;
+    width: 550px;
+  }
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    height: 500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 550px;
+  }
+
+  img {
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  div a {
+    margin-left: 30px;
+  }
+  .sedan-link {
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    border: 3px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .sedan-link:hover {
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+  }
+  .suv-link {
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    border: 3px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .suv-link:hover {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+  }
+  .luxury-link {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    border: 3px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .luxury-link:hover {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+  }
+}
