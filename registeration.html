@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registeration page</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .formLayout {
+      border: 2px solid rgb(29, 27, 27);
+      width: 400px;
+      background-color: whitesmoke;
+      margin-left: 400px;
+    }
+    h5 {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: small;
+      margin-left: 30px;
+    }
+    .input1,
+    .input2,
+    .input3,
+    .input4 {
+      background-color: whitesmoke;
+      margin-left: 30px;
+      border: 2px solid black;
+      height: 30px;
+      width: 200px;
+    }
+    .input5,
+    .input6,
+    .input7,
+    .input8 {
+      margin-left: 30px;
+      padding-bottom: 10px;
+    }
+    .signingUp {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      text-align: center;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 600;
+      color: black;
+    }
+    .btn {
+      width: 120px;
+      height: 30px;
+    }
+  </style>
+  <body>
+    <form class="formLayout">
+      <div style="background-color: black; height: 30px">
+        <header
+          style="
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: whitesmoke;
+            padding-top: 3px;
+          "
+        >
+          Register/Create Account
+        </header>
+      </div>
+      <h5>First Name 📝</h5>
+      <input type="text" placeholder="first name" class="input1" />
+      <h5>last Name 📝</h5>
+      <input type="text" placeholder="last name" class="input2" />
+      <h5>Phone Number 📞</h5>
+      <input type="tel" placeholder="phone number" class="input3" />
+      <h5>E-mail 📧</h5>
+      <input type="text" placeholder="email address" class="input4" />
+      <h5>Gender 👥</h5>
+      <input type="checkbox" class="input5" /> male
+      <input type="checkbox" class="input6" /> female
+      <h5>Date Of Birth 📅</h5>
+      <input type="date" placeholder="date of birth" class="input7" />
+      <h5>Favorite Color 🔘</h5>
+      <input type="color" class="input8" />
+      <div style="margin-top: 10px; background-color: black">
+        <center>
+          <button class="btn">
+            <a href="" target="_blank" class="signingUp">Register</a>
+          </button>
+        </center>
+      </div>
+    </form>
+  </body>
+</html>

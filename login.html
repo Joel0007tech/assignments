@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .formLogin {
+      border: 2px solid white;
+      width: 400px;
+      background-color: black;
+      margin-left: 400px;
+    }
+    h5 {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: small;
+      margin-left: 40px;
+    }
+    .inputEmail,
+    .inputPassword {
+      background-color: whitesmoke;
+      border: 2px solid black;
+      height: 40px;
+      width: 210px;
+      margin-left: 40px;
+      border-right: 10px solid black;
+    }
+    .btn1 {
+      width: 120px;
+      height: 30px;
+      border: 2px solid black;
+    }
+    .btn2 {
+      text-transform: capitalize;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      color: black;
+      font-weight: 600;
+    }
+    .signIN{
+        text-align: center;
+        text-transform: none;
+        color: white;
+    }
+  </style>
+  <body>
+    <form class="formLogin">
+      <div style="background-color: black; height: 30px">
+        <header
+          style="
+            color: white;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 600;
+            padding-top: 5px;
+          "
+        >
+          ALMOST THERE!
+        </header>
+      </div>
+      <div style="background-color: whitesmoke; padding-top: 2px">
+        <h5>E-mail</h5>
+        <input type="text" placeholder="email address" class="inputEmail" />
+        <h5>Password</h5>
+        <input required
+          type="text"
+          placeholder="password"
+          class="inputPassword"
+        /><br /><br />
+        <div style="padding-bottom:20px;">
+        <input
+          type="checkbox"
+          style="margin-left: 40px;"
+        />
+        Remember me
+      </div>
+      <div style="padding-bottom:15px;">
+        <center>
+            <button class="btn1">
+              <a href="" target="_blank" class="btn2">LOGIN</a>
+            </button>
+          </center>
+      </div>
+      <div style="padding-top:10px; background-color: black;">
+       <marquee><a href="" target="_blank" class="signIN">create account</a></marquee> 
+      </div>
+    </form>
+  </body>
+</html>
